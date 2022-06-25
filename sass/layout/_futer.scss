@@ -1,0 +1,247 @@
+.footer {
+    display: flex;
+    background-color: #2F303A;
+    padding: 60px 0;
+}
+
+
+.adres {
+
+    font-style: normal;
+
+}
+
+.adres-list {
+    margin-top: 20px;
+}
+
+.adres-item {
+    margin-bottom: 9px;
+}
+
+.adres-item:last-child {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-white);
+    margin-bottom: 9px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color)
+}
+
+.mail-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color)
+}
+
+.tel-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color)
+}
+
+.container-flex {
+    display: flex;
+    align-items: baseline;
+}
+/*futer-area(e-mail)*/
+.futer-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+
+.futer-label {
+    display: flex;
+
+}
+
+.futer-label-area {
+
+
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-right: auto;
+    padding-bottom: 15px;
+
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 4px;
+
+    background: #2F303A;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color-white);
+
+
+
+}
+
+.futer-label-area::placeholder {
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.label-text {
+
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-color-white);
+
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.futer-text {
+    margin-bottom: 20px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-color-white);
+}
+
+
+.label-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: transparent;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    padding-left: 26px;
+    padding-top: 10px;
+    padding-right: 26px;
+    padding-bottom: 10px;
+
+    color: var(--accent-color-white);
+
+}
+
+.label-icon {
+    display: inline;
+    margin-left: 10px;
+}
+
+/*futer-social-icons*/
+
+.social-list-item-futer {
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+
+
+.futer-link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+
+.social-list-futer {
+    margin-top: 100px;
+}
+
+
+.social-list-link-futer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+.social-list-link-futer:hover,
+.social-list-link-futer:focus {
+    background-color: var(--accent-color);
+
+}

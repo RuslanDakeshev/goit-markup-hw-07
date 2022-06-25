@@ -7,6 +7,8 @@
 @import './base/section';
 
 @import './components/logo-header';
+@import './components/backdrop';
+@import './components/modal-window';
 
 @import './layout/header';
 @import './layout/hero';
@@ -14,3 +16,9 @@
 @import './layout/benefits';
 @import './layout/our-work';
 @import './layout/our-team';
+@import './components/logo-futer';
+@import './layout/futer';
+@import './layout/our-clients';
+@import './layout/portfolio-buttons';
+@import './layout/portfolio-projects';
+@import './components/modal-contact-form';

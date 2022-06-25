@@ -39,3 +39,21 @@
 
     color: var(--accent-color-gray);
 }
+
+.main-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border: 0;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.main-menu-icon {
+    width: 70px;
+    height: 70px;
+
+}

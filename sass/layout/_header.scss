@@ -111,3 +111,22 @@
     color: var(--accent-color);
     fill: rgba(33, 150, 243, 1)
 }
+
+.icon {
+    padding-right: 10px;
+    border: 0;
+    fill: #757575;
+    background-color: var(--accent-color-white);
+
+}
+
+.menu-icon {
+    margin-right: 10px;
+
+    fill: rgba(117, 117, 117, 1);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
