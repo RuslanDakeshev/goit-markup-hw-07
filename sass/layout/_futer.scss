@@ -5,85 +5,18 @@
 }
 
 
-.adres {
 
-    font-style: normal;
 
-}
 
-.adres-list {
-    margin-top: 20px;
-}
-
-.adres-item {
-    margin-bottom: 9px;
-}
-
-.adres-item:last-child {
-    margin-bottom: 0;
-}
-
-.nav-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--accent-color-white);
-    margin-bottom: 9px;
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--accent-color)
-}
-
-.mail-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.mail-link:hover,
-.mail-link:focus {
-    color: var(--accent-color)
-}
-
-.tel-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tel-link:hover,
-.tel-link:focus {
-    color: var(--accent-color)
-}
 
 .container-flex {
     display: flex;
     align-items: baseline;
 }
+
+
 /*futer-area(e-mail)*/
+
 .futer-container {
     display: flex;
     flex-direction: column;
@@ -122,14 +55,14 @@
 
     color: var(--accent-color-white);
 
-
+    &::placeholder {
+    
+        color: rgba(255, 255, 255, 0.6);
+    }
 
 }
 
-.futer-label-area::placeholder {
 
-    color: rgba(255, 255, 255, 0.6);
-}
 
 .label-text {
 
@@ -202,7 +135,7 @@
 
 /*futer-social-icons*/
 
-.social-list-item-futer {
+.futer-link__social-list-item-futer {
     display: inline-block;
     margin-right: 10px;
 
@@ -210,7 +143,7 @@
 }
 
 
-.futer-link {
+.futer-link__socials {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
@@ -222,11 +155,9 @@
 }
 
 
-.social-list-link-futer {
+.futer-link__social-list-link-futer {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -237,11 +168,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    
+    }
+
 }
 
 
-.social-list-link-futer:hover,
-.social-list-link-futer:focus {
-    background-color: var(--accent-color);
-
-}

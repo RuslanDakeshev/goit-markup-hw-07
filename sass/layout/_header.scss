@@ -21,16 +21,16 @@
     margin-left: 93px;
 }
 
-.menu-item .current {
+.menu__item .current {
     color: var(--accent-color)
 }
 
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
 
     position: relative;
     font-size: 14px;
@@ -43,90 +43,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--accent-color);
-}
-
-.contact-list {
-    display: flex;
-    margin-left: auto;
-}
-
-.contact-list .menu-contact+.menu-contact {
-    margin-left: 50px;
-}
-
-.phone-number {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color-gray);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mail {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    margin-left: auto;
-    color: var(--accent-color-gray);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
-}
-
-.phone-number:hover,
-.phone-number:focus {
-    color: var(--accent-color);
-    fill: rgba(33, 150, 243, 1);
-}
-
-.phone-number:hover .menu-icon,
-.phone-number:focus .menu-icon {
-    color: var(--accent-color);
-    fill: rgba(33, 150, 243, 1);
-}
-
-.mail:hover,
-.mail:focus {
-    color: var(--accent-color);
-    fill: rgba(33, 150, 243, 1);
-}
-
-.mail:hover .menu-icon,
-.mail:focus .menu-icon {
-    color: var(--accent-color);
-    fill: rgba(33, 150, 243, 1)
-}
-
-.icon {
-    padding-right: 10px;
-    border: 0;
-    fill: #757575;
-    background-color: var(--accent-color-white);
-
-}
-
-.menu-icon {
-    margin-right: 10px;
-
-    fill: rgba(117, 117, 117, 1);
-
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}

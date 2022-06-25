@@ -1,12 +1,15 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/current';
+@import './utils/placeholders';
 
 @import './base/common';
 @import './base/container';
 @import './base/section';
 
 @import './components/logo-header';
+@import './components/header-contacts';
+@import './components/futer-contacts';
 @import './components/backdrop';
 @import './components/modal-window';
 

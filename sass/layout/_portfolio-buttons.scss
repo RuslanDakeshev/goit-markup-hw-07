@@ -15,20 +15,20 @@
 
 }
 
-.button-item {
+.button-list__button-item {
     display: flex;
     justify-content: center;
     margin-right: 8px;
 
-}
-
-.button-item:last-child {
-    margin-right: 0;
-
+    &:last-child {
+        margin-right: 0;
+    }
 
 }
 
-.button-portfolio {
+
+
+.button-list__button-portfolio {
     background-color: #F5F4FA;
     color: var(--accent-color-black);
     padding-left: 22px;
@@ -52,20 +52,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-
+    &:hover,
+    &:focus {
+        color: var(--accent-color-white);
+        background-color: var(--accent-color);
+        cursor: pointer;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
 
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
-    color: var(--accent-color-white);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
+
 
 .button-all {
     min-width: 73px;

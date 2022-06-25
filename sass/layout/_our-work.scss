@@ -18,23 +18,25 @@
 
 }
 
-.our-work-list {
+.our-work-section__our-work-list {
     display: flex;
 
 }
 
-.our-work-img {
+.our-work-section__our-work-img {
     margin-right: 30px;
     position: relative;
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
 
 
 }
 
 .box {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     width: 370px;
     height: 70px;
     font-family: 'Roboto';
@@ -54,6 +56,3 @@
     color: var(--accent-color-white);
 }
 
-.our-work-img:nth-child(3n) {
-    margin-right: 0;
-}
