@@ -1,14 +1,14 @@
-.adres {
+.adres-font-style {
 
     font-style: normal;
 
 }
 
-.adres-list {
+.adres {
     margin-top: 20px;
 }
 
-.adres-item {
+.adres__item {
     margin-bottom: 9px;
 
     &:last-child {
@@ -18,7 +18,7 @@
 
 
 
-.nav-link {
+.adres__nav-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -39,7 +39,7 @@
 
 
 
-.mail-link {
+.adres__mail-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -60,7 +60,7 @@
 
 
 
-.tel-link {
+.adres__tel-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

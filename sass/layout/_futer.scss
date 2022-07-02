@@ -17,19 +17,19 @@
 
 /*futer-area(e-mail)*/
 
-.futer-container {
+.footer-container {
     display: flex;
     flex-direction: column;
     margin-left: auto;
 
 }
 
-.futer-label {
+.label__form {
     display: flex;
 
 }
 
-.futer-label-area {
+.label__area {
 
 
     padding-left: 16px;
@@ -64,7 +64,7 @@
 
 
 
-.label-text {
+.label__text {
 
 
 
@@ -84,7 +84,7 @@
 
 
 
-.futer-text {
+.footer-text {
     margin-bottom: 20px;
 
 
@@ -99,7 +99,7 @@
 }
 
 
-.label-btn {
+.label__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,14 +128,14 @@
 
 }
 
-.label-icon {
+.label__icon {
     display: inline;
     margin-left: 10px;
 }
 
 /*futer-social-icons*/
 
-.futer-link__social-list-item-futer {
+.footer-link__item {
     display: inline-block;
     margin-right: 10px;
 
@@ -143,19 +143,19 @@
 }
 
 
-.futer-link__socials {
+.footer-link__socials {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
 }
 
 
-.social-list-futer {
+/*.social-list-futer {
     margin-top: 100px;
-}
+}*/
 
 
-.futer-link__social-list-link-futer {
+.footer-link__link {
 
     @extend %align;
     width: 44px;

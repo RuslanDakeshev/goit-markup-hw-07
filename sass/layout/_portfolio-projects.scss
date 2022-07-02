@@ -9,7 +9,7 @@
 
 }
 
-.projects-item {
+.projects__item {
     margin-right: 30px;
     margin-bottom: 30px;
 
@@ -44,14 +44,14 @@
 }
 
 
-.projects-list {
+.projects__list {
     display: flex;
     flex-wrap: wrap;
 
 
 }
 
-.projects-card {
+.projects__card {
     padding-left: 24px;
     padding-top: 20px;
     padding-right: 24px;
@@ -62,7 +62,7 @@
 }
 
 
-.project-type {
+.projects__type {
 
     font-weight: 400;
     font-size: 16px;
