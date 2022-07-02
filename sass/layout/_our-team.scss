@@ -1,16 +1,16 @@
-.our-team-sections {
+.section__other-background {
     background: #F5F4FA;
 
 }
 
-.our-team-list {
+.team {
     display: flex;
     margin-top: 50px;
     text-align: center;
 
 }
 
-.team-card {
+.team__card {
 
     padding-top: 30px;
     padding-bottom: 30px;
@@ -19,7 +19,7 @@
 
 
 
-.our-team-list__our-team-element {
+.team__item {
     background: var(--accent-color-white);
     margin-right: 30px;
 
@@ -41,7 +41,7 @@
 
 
 
-.our-team {
+.section__title {
 
     font-weight: 700;
     font-size: 36px;
@@ -52,7 +52,7 @@
 
 }
 
-.our-team-worker {
+.team__title {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -60,7 +60,7 @@
     color: var(--accent-color-black);
 }
 
-.our-team-prof {
+.team__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -78,11 +78,11 @@
     justify-content: center;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-list-link {
+.social-list__link {
     @extend %align;
     width: 44px;
     height: 44px;
@@ -106,15 +106,15 @@
 
 
 
-.social-list-icon {
+.social-list__icon {
     fill: rgba(175, 177, 184, 1);
 
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .social-list-link:hover &,
-    .social-list-link:focus & {
+    .social-list__link:hover &,
+    .social-list__link:focus & {
         fill: rgba(255, 255, 255, 1)
     }
 

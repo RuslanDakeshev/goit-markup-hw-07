@@ -1,4 +1,4 @@
-.our-klients {
+.section__title {
     text-align: center;
     margin-bottom: 50px;
 
@@ -13,11 +13,11 @@
     color: var(--accent-color-black)
 }
 
-.klients-list {
+.clients {
     display: flex;
 }
 
-.klients-list__main-klients {
+.clients__item {
 
     margin-right: 30px;
     width: 170px;
@@ -32,7 +32,7 @@
 
 
 
-.klients-menu-icon {
+.clients__icon {
 
     width: 106px;
     height: 60px;
@@ -41,7 +41,7 @@
 
 
 
-.klients-list__social-link-list {
+.clients__link {
     @extend %align;
     width: 100%;
     height: 100%;

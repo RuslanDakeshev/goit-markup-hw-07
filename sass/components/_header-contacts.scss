@@ -1,13 +1,13 @@
-.contact-list-header {
+.contact-list__page-header {
     display: flex;
     margin-left: auto;
 }
 
-.contact-list .contact-list__menu-contact+.contact-list__menu-contact {
+.contact-list .contact-list__item+.contact-list__item {
     margin-left: 50px;
 }
 
-.phone-number {
+/*.phone-number {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -24,9 +24,9 @@
         color: var(--accent-color);
         fill: rgba(33, 150, 243, 1);
     }
-}
+}*/
 
-.mail {
+.contact-list__link {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -57,7 +57,7 @@
 
 } */
 
-.menu-icon {
+.contact-list__icon {
     margin-right: 10px;
 
     fill: rgba(117, 117, 117, 1);
@@ -72,8 +72,8 @@
         fill: rgba(33, 150, 243, 1);
     }
 
-    .mail:hover &,
-    .mail:focus & {
+    .contact-list__link:hover &,
+    .contact-list__link:focus & {
         color: var(--accent-color);
         fill: rgba(33, 150, 243, 1)
     }

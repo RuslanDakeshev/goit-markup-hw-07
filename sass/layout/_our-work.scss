@@ -1,10 +1,10 @@
-.our-work-section {
+.section__no-padding-top {
 
     padding-top: 0;
 
 }
 
-.our-work {
+.section__title{
 
     margin-bottom: 50px;
 
@@ -18,12 +18,12 @@
 
 }
 
-.our-work-section__our-work-list {
+.works{
     display: flex;
 
 }
 
-.our-work-section__our-work-img {
+.works__item {
     margin-right: 30px;
     position: relative;
 
@@ -34,7 +34,7 @@
 
 }
 
-.box {
+.works__box {
     position: absolute;
     @extend %align;
     width: 370px;
